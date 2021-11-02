@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Header from "./components/header";
+import Corusel from "./components/corusel";
+import FirstBenefits from "./components/FirstBenefits";
+import SecondBenefits from "./components/SecondBenefits";
+import "./assets/style.css";
+import Integrations from "./components/Integrations";
+import CTA from "./components/CTA";
+import SocialProofVideo from "./components/SocialProofVideo";
+import CTAandFooter from "./components/CTAandFooter";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header/>
+    <Corusel/>
+    <FirstBenefits/>
+    <SecondBenefits/>
+    <Integrations/>
+    <CTA/>
+    <SocialProofVideo/>
+    <CTAandFooter/>
+    </>
   );
 }
 
